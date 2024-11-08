@@ -1,0 +1,20 @@
+.main-category-scroll {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 10px;
+    gap: 10px;
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+  }
+  
+  .main-category-scroll::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+  }
+  
+  .main-category-item {
+    flex: 0 0 auto;
+    width: 120px; /* Adjust the width of each category item */
+    text-align: center;
+  }
+  

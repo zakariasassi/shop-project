@@ -1,0 +1,24 @@
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .print-container, .print-container * {
+    visibility: visible;
+  }
+  .print-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    direction: rtl; /* Enforce RTL direction */
+    text-align: right; /* Ensure text alignment is right */
+  }
+  .print-title::after {
+    content: 'فاتورة الطلب';
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1em;
+  }
+}
