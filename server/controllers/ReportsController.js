@@ -124,7 +124,7 @@ const WatchedProduct = require('../model/WatchedProudacts.js');
    const SalesReport = async (req, res) => { 
     try {
         const { from, to } = req.query;
-
+        console.log(req.query);
         // Parse and format dates
         const startDate = new Date(from).toISOString().split('T')[0]; // 'YYYY-MM-DD'
         const endDate = new Date(to).toISOString().split('T')[0]; // 'YYYY-MM-DD'
@@ -143,7 +143,7 @@ const WatchedProduct = require('../model/WatchedProudacts.js');
           ],
           where: {
             createdAt: {
-              [Sequelize.Op.between]: [startDate, endDate]
+              [Sequelize.Op.between]: [from, to]
             },
             status: 'delivered'
           },

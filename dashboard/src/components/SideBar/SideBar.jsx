@@ -140,9 +140,9 @@ function SideBar() {
             <Menu.Item key="/coupons">
               <Link to="/coupons">اكواد الخصم</Link>
             </Menu.Item>
-            <Menu.Item key="/loyalty-points">
+            {/* <Menu.Item key="/loyalty-points">
               <Link to="/loyalty-points">نقاط الولاء</Link>
-            </Menu.Item>
+            </Menu.Item> */}
           </Menu.SubMenu>
         )}
 
@@ -154,9 +154,9 @@ function SideBar() {
             <Menu.Item key="/manage-cards">
               <Link to="/manage-cards">ادارة الكروت</Link>
             </Menu.Item>
-            <Menu.Item key="/canseled-cards">
+            {/* <Menu.Item key="/canseled-cards">
               <Link to="/canseled-cards">الكروت الملغية</Link>
-            </Menu.Item>
+            </Menu.Item> */}
           </Menu.SubMenu>
         ) : null}
 

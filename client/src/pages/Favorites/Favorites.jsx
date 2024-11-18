@@ -16,6 +16,9 @@ function Favorites() {
     if (data) setFavoritesList(data);
   }, [data]);
 
+
+  console.log(data);
+
   const handelRemoveFromFavorite = async (e, id) => {
     e.preventDefault();
     try {

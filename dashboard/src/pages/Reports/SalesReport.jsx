@@ -20,6 +20,8 @@ const SalesReport = () => {
           authorization: `Bearer ${localStorage.getItem('token')}`,
         },
       });
+
+      console.log(response);
       setData(response.data);
     } catch (err) {
       setError(err.message);
@@ -29,9 +31,12 @@ const SalesReport = () => {
   };
 
   const handleDateChange = (dates) => {
+
+
     if (dates) {
       const startDate = dates[0].format('YYYY-MM-DD');
       const endDate = dates[1].format('YYYY-MM-DD');
+      console.log(startDate , endDate);
       fetchSalesData(startDate, endDate);
     }
   };
