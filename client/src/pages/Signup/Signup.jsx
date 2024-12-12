@@ -59,11 +59,6 @@ function Signup() {
   return (
     <>
 
-<SEO
-        title={"انشاء حساب جديد"}
-        name={"ليبو كير"}
-        description={"قم بفتح حساب جديد واحصل علي افضل العروض والتخفيضات"}
-      />
 
 
         <div className="flex justify-center min-h-screen text-gray-900 bg-primary">

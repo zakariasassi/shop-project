@@ -81,14 +81,7 @@ const Products = () => {
 
   return (
     <>
-      <SEO 
-        title=" ليبو كير"
-        name="ليبو كير"
-        url={window.location.href}
-        keywords="e-commerce, shopping, products, offers , منتجات طبية , عناية بالجسم , عناية بالبشرة , ليبيا  , ليبو كير"
-        author="ليبو كير"
-        description="ليبو كبير هو متجر الكتروني ليبي لبيع المنتجات الخاصة بالعناية بالبشرة و الادوية والفيتامينات والمعدات الطبية"
-      />
+
 
       <div className="container px-4 py-8 mx-auto" dir="rtl">
         <div className="flex flex-col gap-8 lg:flex-row">

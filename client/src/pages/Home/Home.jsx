@@ -188,14 +188,7 @@ function Home() {
   
   return (
     <div className="w-[90%] px-4 mx-auto">
-      <SEO
-        title="الرئيسية"
-        description="مرحبًا بكم في موقعنا للتجارة الإلكترونية، حيث نقدم لكم مجموعة واسعة من المنتجات الطبية ومنتجات العناية الشخصية، بما في ذلك أشهر الماركات والعلامات التجارية. استكشف أحدث المنتجات والعروض المميزة لدينا، وتمتع بخدمات التوصيل السريع التي تضمن وصول طلباتكم إلى عتبة داركم بأسرع وقت ممكن. نحن هنا لنقدم لكم تجربة تسوق فريدة ومريحة تلبي جميع احتياجاتكم."
-        url={window.location.href}
-        image={IMAGE_URL + "logo.png"} // Replace with your site logo or a default image
-        keywords="e-commerce, shopping, products, offers , منتجات طبية , عناية بالجسم , عناية بالبشرة , ليبيا  , ليبو كير"
-        author="ليبو كير"
-      />
+
             <AddsSlider />
 
       <MainCategorys />

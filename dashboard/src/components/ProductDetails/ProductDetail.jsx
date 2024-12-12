@@ -46,7 +46,7 @@ const ProductDetail = ({ product, onClose }) => {
               <Descriptions.Item label="الحجم">{product.Size}</Descriptions.Item>
               <Descriptions.Item label="الوصف القصير">{product.shortDescription}</Descriptions.Item>
               <Descriptions.Item label="الوصف كامل">{product.fullDescription}</Descriptions.Item>
-              <Descriptions.Item label="الاستعمال">{product.howUse}</Descriptions.Item>
+              <Descriptions.Item label="المكونات">{product.howUse}</Descriptions.Item>
               <Descriptions.Item label="التصنيف الرئيسي">{product.MainCategory?.name}</Descriptions.Item>
               <Descriptions.Item label="التصنيف الفرعي">{product.SubCategory?.name}</Descriptions.Item>
               <Descriptions.Item label="العلامة التجارية">{product?.BrandCategory?.name}</Descriptions.Item>

@@ -87,15 +87,7 @@ function App() {
 
   return (
     <HelmetProvider context={helmetContext}>
-      <SEO 
-        title={" ليبو كير"}
-        name={"ليبو كير"}
-        url={window.location.href}
-        keywords="e-commerce, shopping, products, offers , منتجات طبية , عناية بالجسم , عناية بالبشرة , ليبيا  , ليبو كير"
-        author="ليبو كير"
-
-        description={"ليبو كبير هو متجر الكتروني ليبي لبيع المنتجات الخاصة بالعناية بالبشرة و الادوية والفيتامينات والمعدات الطبية"}
-      />
+ 
           <BrowserRouter>
       <AuthProvider>
         <AppRoutes />

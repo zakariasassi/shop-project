@@ -113,7 +113,7 @@ function ProductDetails() {
             </div>
 
             <div>
-              <Text strong>طريقة الاستعمال:</Text>
+              <Text strong>المكونات :</Text>
               <p className="mt-2">{product.howUse}</p>
             </div>
           </div>
